@@ -10,6 +10,8 @@
 #import <QuartzCore/QuartzCore.h>
 #import "PullToRefreshView.h"
 
+
+__attribute__ ((deprecated))
 @interface RefreshWebView : UIWebView <PullToRefreshViewDelegate>
 
 @property(nonatomic, retain, readonly) UIScrollView* currentScrollView;

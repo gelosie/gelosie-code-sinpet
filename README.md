@@ -5,11 +5,13 @@ gelosie-code-sinpet 保存的是我blog文章中相关的代码。
 
 ## code list
 
-1. RefreshWebView
+1.  __attribute__ ((deprecated)) RefreshWebView
 	
 	基于PullToRefreshView构建下拉刷新的UIWebView
 	 
 	文章地址：http://blog.csdn.net/gelosie/article/details/8108373
+
+	**The UIWebView class should not be subclassed.**
 	
 2. comming soon
 
